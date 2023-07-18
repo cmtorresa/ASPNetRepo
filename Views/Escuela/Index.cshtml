@@ -1,0 +1,12 @@
+﻿@model Escuela
+
+@* La frase anterior me obliga a tener un modelo fuertemente tipado *@
+
+@{
+    ViewData["Title"] = "Información Escuela";
+} 
+@* Todo lo que tengo entre el "@", es llamado a c#, codigo de C# *@
+
+<h1>Escuela </h1>
+<h2>Nombre: @Model.Nombre</h2>
+<p><strong>Año Fundación: @Model.YearF</strong></p>

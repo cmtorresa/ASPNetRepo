@@ -12,9 +12,13 @@ namespace APS_proyecto.Controllers
         public IActionResult Index()
         {
             var escuela = new Escuela();
-            escuela.YearF=2005;
-            escuela.EscuelaId=Guid.NewGuid().ToString();
+            escuela.FundationYear=2005;
+            escuela.UniqueId=Guid.NewGuid().ToString();
             escuela.Nombre="Platzi School";
+            escuela.Country = "Colombia";
+            escuela.City = "Bogotá";
+            escuela.TipoEscuela = TiposEscuela.secundaria;
+            escuela.Direccion = "Av. Siempre viva";
             return View(escuela);
         }
     }

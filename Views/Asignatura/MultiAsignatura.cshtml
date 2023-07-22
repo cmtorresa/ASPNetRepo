@@ -1,4 +1,4 @@
-﻿@model Asignatura
+﻿@model List<Asignatura>
 
 @* La frase anterior me obliga a tener un modelo fuertemente tipado *@
 
@@ -9,10 +9,8 @@
 
 <h1>@ViewData["Title"] </h1>
 
-<strong>Desde la vista normal</strong>
-<p>
-    Nombre: @Model.Nombre
-    Id: @Model.UniqueId
-</p>
 <strong>Desde la vista parcial</strong>
-<partial name="AsignaturaSimple" model="@Model.Nombre"/>
+@foreach (var asignatura in Model)
+{
+    <partial name="AsignaturaSimple" model="asignatura"/>
+}

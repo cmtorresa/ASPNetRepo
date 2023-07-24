@@ -8,53 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APS_proyecto
 build_property.RootNamespace = APS_proyecto
-build_property.ProjectDir = c:\Users\ASUS\platziDotNet\APS_proyecto\
+build_property.ProjectDir = C:\Users\ASUS\platziDotNet\APS_proyecto\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ASUS\platziDotNet\APS_proyecto
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\platziDotNet\APS_proyecto
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Asignatura/Index.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Alumno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Alumno/MultiAlumno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXE11bHRpQWx1bW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Asignatura/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Asignatura/MultiAsignatura.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Asignatura/MultiAsignatura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hdHVyYVxNdWx0aUFzaWduYXR1cmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Escuela/Index.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Escuela/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjdWVsYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Home/Index.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Home/Privacy.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/AsignaturaSimple.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFzaWduYXR1cmFTaW1wbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/Error.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/ObjetoEscuelaSimple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9iamV0b0VzY3VlbGFTaW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/platziDotNet/APS_proyecto/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dtbfz640ri

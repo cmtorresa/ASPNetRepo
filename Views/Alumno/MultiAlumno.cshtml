@@ -1,0 +1,31 @@
+﻿@model List<Alumno>
+
+@* La frase anterior me obliga a tener un modelo fuertemente tipado *@
+
+@{
+    ViewData["Title"] = "Información Alumnos";
+} 
+@* Todo lo que tengo entre el "@", es llamado a c#, codigo de C# *@
+
+<h1>@ViewData["Title"] </h1>
+
+<strong>Desde la vista parcial</strong>
+
+<table class="= table table-dark table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var alumno in Model)
+        {
+            <tr>
+                <td>@alumno.Nombre</td>
+                <td>@alumno.UniqueId</td>
+            </tr>
+        }
+    </tbody>
+    
+</table>

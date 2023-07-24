@@ -18384,13 +18384,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\ObjetoEscuelaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Shared\\AsignaturaSimple.cshtml",
-      "TargetPath": "Views\\Shared\\AsignaturaSimple.cshtml",
+      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Alumno\\MultiAlumno.cshtml",
+      "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18426,6 +18431,11 @@
     {
       "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Alumno\\Index.cshtml",
+      "TargetPath": "Views\\Alumno\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

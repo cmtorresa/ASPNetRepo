@@ -9,17 +9,15 @@ namespace APS_proyecto.Controllers
 {
     public class EscuelaController: Controller
     {
+        private EscuelaContext _context;
         public IActionResult Index()
         {
-            var escuela = new Escuela();
-            escuela.FundationYear=2005;
-            escuela.UniqueId=Guid.NewGuid().ToString();
-            escuela.Nombre="Platzi School";
-            escuela.Country = "Colombia";
-            escuela.City = "Bogotá";
-            escuela.TipoEscuela = TiposEscuela.secundaria;
-            escuela.Direccion = "Av. Siempre viva";
+            var escuela=_context.Escuelas.FirstOrDefault();
             return View(escuela);
+        }
+        public EscuelaController (EscuelaContext context)
+        {
+            _context = context;
         }
     }
 }

@@ -12,6 +12,8 @@ namespace APS_proyecto.Models
         public List<Asignatura> Asignaturas {get;set;}
         public List<Alumno> Alumnos {get;set;}
         public string Direccion { get ; set ; }
+        public string EscuelaId { get; set; }
+        public Escuela Escuela { get; set; }
 
     }
 

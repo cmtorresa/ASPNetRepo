@@ -18394,6 +18394,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Curso\\Index.cshtml",
+      "TargetPath": "Views\\Curso\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Asignatura\\Index.cshtml",
       "TargetPath": "Views\\Asignatura\\Index.cshtml",
       "FileKind": "mvc"
@@ -18441,6 +18446,11 @@
     {
       "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Alumno\\MultiAlumno.cshtml",
       "TargetPath": "Views\\Alumno\\MultiAlumno.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ASUS\\platziDotNet\\APS_proyecto\\Views\\Curso\\MultiCurso.cshtml",
+      "TargetPath": "Views\\Curso\\MultiCurso.cshtml",
       "FileKind": "mvc"
     }
   ],

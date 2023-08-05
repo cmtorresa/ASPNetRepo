@@ -8,7 +8,7 @@ namespace APS_proyecto.Models;
 public abstract class ObjetoEscuelaBase // Una clase abstracta no permite generar instancias de esta. Pero si heredar
     {
         public string? Id {get; set;}
-        public string? Nombre {get;set;}
+        public virtual string? Nombre {get;set;}
 
         public ObjetoEscuelaBase()
         {

@@ -1,0 +1,29 @@
+﻿@model Curso
+
+@* La frase anterior me obliga a tener un modelo fuertemente tipado *@
+
+@{
+    ViewData["Title"] = "Creación de  Curso";
+} 
+@* Todo lo que tengo entre el "@", es llamado a c#, codigo de C# *@
+
+<h1>@ViewData["Title"] </h1>
+<div asp-validation-summary="All"></div>
+
+<form method="POST">
+    <div>
+        <label asp-for="Nombre"></label>    
+        <input  asp-for="Nombre"/>
+    </div>
+        <div>
+        <label asp-for="Direccion"></label>
+        <input  asp-for="Direccion"/>
+    </div>
+        <div>
+        <label asp-for="Jornada"></label>
+        @Html.DropDownList(
+            "Jornada", Html.GetEnumSelectList<TiposJornada>(), "Seleccione la Jornada", new {@class = "form-control"}
+        )
+    </div>
+    <input type="submit"/>
+</form>

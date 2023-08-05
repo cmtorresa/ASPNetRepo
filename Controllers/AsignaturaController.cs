@@ -28,6 +28,10 @@ namespace APS_proyecto.Controllers
             }
             
         }
+        public IActionResult Create(Asignatura asignatura)
+        {
+            return view("Index",)
+        }
         public IActionResult MultiAsignatura()
         {
             return View("Multiasignatura", _context.Asignaturas);

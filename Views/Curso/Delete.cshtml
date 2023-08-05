@@ -1,0 +1,22 @@
+﻿@model Curso
+
+@* La frase anterior me obliga a tener un modelo fuertemente tipado *@
+
+@{
+    ViewData["Title"] = "Eliminación del Curso";
+} 
+@* Todo lo que tengo entre el "@", es llamado a c#, codigo de C# *@
+
+<h1>@ViewData["Title"] </h1>
+<div asp-validation-summary="All"></div>
+
+<form method="DELETE">
+    <div>
+        <label asp-for="Id"></label>
+        <input  asp-for="Id"/>
+    </div>
+    <div>
+        <label asp-for="Nombre"></label>    
+        <input  asp-for="Nombre"/>
+    <input type="submit"/>
+</form>

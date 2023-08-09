@@ -46,12 +46,12 @@ namespace APS_proyecto.Controllers
             curso.EscuelaId = escuela.Id;
             _context.Cursos.Add(curso);
             _context.SaveChanges();
-            ViewBag.MensajeExtra = "Curso Creado"
+            ViewBag.MensajeExtra = "Curso Creado";
             return View("Index", curso);
             }
             else
             {
-                return View(curso)
+                return View(curso);
             }
         }
 
@@ -66,7 +66,7 @@ namespace APS_proyecto.Controllers
 
         [Route("Curso/Update")]
         [Route("Curso/Update/{cursoId}")]
-        [HttpPUT]
+        // [HttpPUT]
         public IActionResult Update(Curso cursoUpdate, string id)
         {
             ViewBag.Fecha = DateTime.Now;
@@ -80,12 +80,12 @@ namespace APS_proyecto.Controllers
                 cursillo.Nombre = cursoUpdate.Nombre;
                 cursillo.Jornada=cursoUpdate.Jornada;
                 _context.SaveChanges();
-            ViewBag.MensajeExtra = "Curso Actualizado"
+            ViewBag.MensajeExtra = "Curso Actualizado";
             return View("Index", cursoUpdate);
             }
             else
             {
-                return View(cursoUpdate)
+                return View(cursoUpdate);
             }
         }
 
@@ -100,7 +100,7 @@ namespace APS_proyecto.Controllers
 
             _context.Cursos.Remove(curso.FirstOrDefault());
             _context.SaveChanges();
-            ViewBag.MensajeExtra = "Curso Eliminado"
+            ViewBag.MensajeExtra = "Curso Eliminado";
             return view("Multicurso");
         }
 

@@ -81,9 +81,9 @@ namespace APS_proyecto.Models
             return listaAlumnos.OrderBy((al) => al.Id).Take(cantidad).ToList();
         }
 
-        private static List<Curso>() CargarCursos(Escuela escuela)
+        private static List<Curso> CargarCursos(Escuela escuela)
         {
-            return new List<Curso> ()
+            return new List<Curso>()
             {
                 new Curso()
                 {

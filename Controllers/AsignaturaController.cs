@@ -30,7 +30,7 @@ namespace APS_proyecto.Controllers
         }
         public IActionResult Create(Asignatura asignatura)
         {
-            return view("Index",)
+            return View("Index", asignatura);
         }
         public IActionResult MultiAsignatura()
         {
@@ -42,4 +42,4 @@ namespace APS_proyecto.Controllers
             _context = context;
         }
     }
-}
+};

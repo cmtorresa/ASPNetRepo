@@ -5,7 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<EscuelaContext>(options => options.UseInMemoryDatabase(databaseName:"TestDB")); // Tomado del curso de EF conecxion a base de datos
+// builder.Services.AddDbContext<EscuelaContext>(options => options.UseInMemoryDatabase(databaseName:"TestDB")); // Tomado del curso de EF conecxion a base de datos
+string connString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionString");
+builder.Services.AddDbContext<EscuelaContext>(options => options.UseSqlServer(connString)); // Tomado del curso de EF conecxion a base de datos
 
 var app = builder.Build();
 
